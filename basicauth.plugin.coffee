@@ -14,17 +14,17 @@ module.exports = (BasePlugin) ->
         # Used to add our own custom routes to the server before the docpad routes are added
 		serverExtend: (opts) ->
 			{server} = opts
-            docpad = @docpad
+			docpad = @docpad
 
 			# Synchronous
-			auth = serverExpress.basicAuth(config.testUser, config.testPass)
+			auth = server.basicAuth(config.user, config.pass)
 
 			# Synchronous Function
-			auth = serverExpress.basicAuth((user, pass) ->
-				user is "testUser" and pass is "testPass"
+			auth = server.basicAuth((user, pass) ->
+				user is config.user and pass is config.pass
 			)
 
-			server.get config.protectedPage, auth, (req, res) ->
+			req.app.get config.protectedPage, auth, (req, res) ->
 				res.send docpad
 
 			# Done

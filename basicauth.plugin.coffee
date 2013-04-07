@@ -19,11 +19,6 @@ module.exports = (BasePlugin) ->
 			# Synchronous
 			auth = server.basicAuth(config.user, config.pass)
 
-			# Synchronous Function
-			auth = server.basicAuth((user, pass) ->
-				user is config.user and pass is config.pass
-			)
-
 			req.app.get config.protectedPage, auth, (req, res) ->
 				res.send docpad
 

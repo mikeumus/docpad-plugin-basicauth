@@ -5,21 +5,19 @@ module.exports = (BasePlugin) ->
 		# Name
 		name: 'basicauth'
 
-		config:
-			protectedPage: '/fileuploads'
-			user: "testUser"
-			pass: "testPass"
-
+		dConf = docpad.getConfig()
+		
 		# Server Extend
-        # Used to add our own custom routes to the server before the docpad routes are added
+		# Used to add our own custom routes to the server before the docpad routes are added
 		serverExtend: (opts) ->
-			{server} = opts
-			docpad = @docpad
+			{express,server} = opts
+			{config,docpad} = @
+			# docpad = @docpad
 
 			# Synchronous
-			auth = server.basicAuth(config.user, config.pass)
+			auth = express.basicAuth(dConf.basicAuth.user, dConf.basicAuth.pass)
 
-			req.app.get config.protectedPage, auth
+			server.get dConf.basicAuth.protectedPage, auth
 
 			# Done
 			@

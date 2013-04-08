@@ -4,7 +4,7 @@
 
 Add the protected route and user/pass info to the docpad.coffee configuration file like so:
 
-json```
+```
 docpadConfig = {
 
 	# =================================

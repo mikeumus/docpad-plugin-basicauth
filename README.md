@@ -1,10 +1,10 @@
-###### [Express'](http://expressjs.com/ "Express") basicAuth() plugin for [DocPad](http://docpad.org/ "DocPad").
+###### [Express'](http://expressjs.com/ "Express") basicAuth() as a [DocPad](http://docpad.org/ "DocPad") plugin.
 
 ### Setup
 
 Add the protected route and user/pass info to the docpad.coffee configuration file like so:
 
-json```
+```
 docpadConfig = {
 
 	# =================================

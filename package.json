@@ -1,12 +1,12 @@
 {
   "name": "docpad-plugin-basicauth",
   "version": "2.0.0",
-  "description": "express.basicAuth()",
-  "homepage": "https://github.com/mikeumus/docpad-plugin-gdocs",
+  "description": "express.basicAuth as a DocPad plugin.",
+  "homepage": "https://github.com/mikeumus/docpad-plugin-basicauth",
   "keywords": [
     "docpad",
     "docpad-plugin",
-    "authenticate", "basic-auth", "auth", "express-basicauth", "express-auth"
+    "authenticate", "basic-auth", "auth", "express-basicauth", "express-auth", "express"
   ],
   "author": {
     "name": "MDM Inc",
@@ -28,11 +28,11 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/mikeumus/docpad-plugin-gdocs/issues"
+    "url": "https://github.com/mikeumus/docpad-plugin-basicauth/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikeumus/docpad-plugin-gdocs"
+    "url": "https://github.com/mikeumus/docpad-plugin-basicauth"
   },
   "engines": {
     "node": "0.8.22",

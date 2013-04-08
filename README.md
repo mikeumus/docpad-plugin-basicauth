@@ -1,4 +1,4 @@
-###### [Express'](http://expressjs.com/ "Express") basicAuth() plugin for [DocPad](http://docpad.org/ "DocPad").
+###### [Express'](http://expressjs.com/ "Express") basicAuth() [DocPad](http://docpad.org/ "DocPad") plugin.
 
 ### Setup
 

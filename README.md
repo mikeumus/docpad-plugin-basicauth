@@ -1,4 +1,5 @@
-###### [Express'](http://expressjs.com/ "Express") basicAuth() as a [DocPad](http://docpad.org/ "DocPad") plugin. ###### Much thanks to [Andrew Sengul](http://contrastco.com/) for the great help & guidance in the #docpad IRC. 
+###### [Express'](http://expressjs.com/ "Express") basicAuth() as a [DocPad](http://docpad.org/ "DocPad") plugin.
+Much thanks to [Andrew Sengul](http://contrastco.com/) for the great help & guidance in the #docpad IRC. 
 
 ### Setup
 

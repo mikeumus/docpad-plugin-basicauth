@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-basicauth",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "express.basicAuth as a DocPad plugin.",
   "homepage": "https://github.com/mikeumus/docpad-plugin-basicauth",
   "keywords": [
@@ -35,8 +35,8 @@
     "url": "https://github.com/mikeumus/docpad-plugin-basicauth"
   },
   "engines": {
-    "node": "0.8.22",
-    "docpad": "6.21"
+    "node": ">=0.8.22",
+    "docpad": ">=6.21"
   },
   "dependencies": {
   },

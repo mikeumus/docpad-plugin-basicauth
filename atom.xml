@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Your Website</title>
+	<link href="http://website.com/atom.xml" rel="self"/>
+	<link href="http://website.com"/>
+	<updated>2014-04-29T22:15:14.412Z</updated>
+	<id>http://website.com</id>
+	<author>
+		<name>Your Name</name>
+		<email>your@email.com</email>
+	</author>
+
+	
+		<entry>
+			<title>This is a Goodbye Blog Post</title>
+			<link href="http://website.com//posts/bye"/>
+			<updated>2014-04-29T17:02:04.000Z</updated>
+			<id>http://website.com//posts/bye</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Goodbye Blog Post | Your Website&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Your Name&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.64.2&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://yui.yahooapis.com/pure/0.4.2/pure-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- Markup --&gt;
+&lt;div class=&quot;content pure-g-r&quot;&gt;
+	&lt;div class=&quot;header pure-u-1&quot;&gt;
+		&lt;div class=&quot;pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal&quot;&gt;
+			&lt;a class=&quot;pure-menu-heading&quot; href=&quot;/&quot;&gt;Your Site&lt;/a&gt;
+
+			&lt;ul&gt;
+				&lt;li class=&quot;pure-menu-selected&quot;&gt;&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Tour&lt;/a&gt;&lt;/li&gt;
+				
+					&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/hello&quot; class=&quot;&quot;&gt;
+						&lt;a href=&quot;/pages/hello&quot; property=&quot;dc:title&quot;&gt;This is a Page&lt;/a&gt;
+					&lt;/li&gt;
+				
+					&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;&quot;&gt;
+						&lt;a href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;
+					&lt;/li&gt;
+				
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;pure-u-1&quot;&gt;
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+		&lt;h1&gt;This is a Goodbye Blog Post&lt;/h1&gt;
+		&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+	&lt;/article&gt;
+
+	&lt;footer&gt;
+		
+	&lt;/footer&gt;
+&lt;/div&gt;
+
+	&lt;div class=&quot;footer pure-u-1&quot;&gt;
+		View the source of this layout to learn more. Made with love by the YUI Team. 
+		&amp;copy; Company 2014.
+		This website was last updated at 2014-04-29T22:15:14.412Z
+	&lt;/div&gt;
+&lt;/div&gt;
+
+	&lt;!-- Scripts --&gt;
+	
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>This is a Hello Blog Post</title>
+			<link href="http://website.com//posts/hello"/>
+			<updated>2014-04-29T17:02:04.000Z</updated>
+			<id>http://website.com//posts/hello</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Hello Blog Post | Your Website&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;When your website appears in search results in say Google, the text here will be shown underneath your website's title.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Your Name&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.64.2&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;icons/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;http://yui.yahooapis.com/pure/0.4.2/pure-min.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+	
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- Markup --&gt;
+&lt;div class=&quot;content pure-g-r&quot;&gt;
+	&lt;div class=&quot;header pure-u-1&quot;&gt;
+		&lt;div class=&quot;pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal&quot;&gt;
+			&lt;a class=&quot;pure-menu-heading&quot; href=&quot;/&quot;&gt;Your Site&lt;/a&gt;
+
+			&lt;ul&gt;
+				&lt;li class=&quot;pure-menu-selected&quot;&gt;&lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Tour&lt;/a&gt;&lt;/li&gt;
+				
+					&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/hello&quot; class=&quot;&quot;&gt;
+						&lt;a href=&quot;/pages/hello&quot; property=&quot;dc:title&quot;&gt;This is a Page&lt;/a&gt;
+					&lt;/li&gt;
+				
+					&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/posts&quot; class=&quot;&quot;&gt;
+						&lt;a href=&quot;/pages/posts&quot; property=&quot;dc:title&quot;&gt;Posts&lt;/a&gt;
+					&lt;/li&gt;
+				
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;pure-u-1&quot;&gt;
+	&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+		&lt;h1&gt;This is a Hello Blog Post&lt;/h1&gt;
+		&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a hello &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+	&lt;/article&gt;
+
+	&lt;footer&gt;
+		
+	&lt;/footer&gt;
+&lt;/div&gt;
+
+	&lt;div class=&quot;footer pure-u-1&quot;&gt;
+		View the source of this layout to learn more. Made with love by the YUI Team. 
+		&amp;copy; Company 2014.
+		This website was last updated at 2014-04-29T22:15:14.412Z
+	&lt;/div&gt;
+&lt;/div&gt;
+
+	&lt;!-- Scripts --&gt;
+	
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>

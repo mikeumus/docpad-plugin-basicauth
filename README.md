@@ -13,7 +13,7 @@ docpadConfig = {
 
 
 plugins:
-    basicAuth:
+    basicauth:
         protectedPage: '/admin.html'
         user: 'testUser'
         pass: 'testPass'

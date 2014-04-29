@@ -15,9 +15,9 @@ module.exports = (BasePlugin) ->
 			# docpad = @docpad
 
 			# Synchronous
-			auth = express.basicAuth(dConf.basicAuth.user, dConf.basicAuth.pass)
+			auth = express.basicAuth(dConf.basicauth.user, dConf.basicauth.pass)
 
-			server.get dConf.basicAuth.protectedPage, auth
+			server.get dConf.basicauth.protectedPage, auth
 
 			# Done
 			@

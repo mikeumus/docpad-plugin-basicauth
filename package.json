@@ -1,0 +1,49 @@
+{
+  "name": "yui-purecss.docpad",
+  "version": "0.0.1",
+  "description": "YUI Purecss skeleton for DocPad. Simple, flexible and clean HTML and CSS for popular user interface components and interactions.",
+  "keywords": [
+    "docpad-skeleton",
+    "docpad",
+    "website",
+    "purecss",
+    "yui purecss"
+  ],
+  "author": "Mass Distribution Media <mike@mdm.cm> (http://mdm.cm)",
+  "maintainers": [
+    "Michael D Mooring <mike@mdm.cm> (https://github.com/mikeumus)"
+  ],
+  "contributors": [
+    "Michael D Mooring <mike@mdm.cm> (https://github.com/mikeumus)"
+  ],
+  "bugs": {
+    "url": "https://github.com/MassDistributionMedia/yui-purecss.docpad/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MassDistributionMedia/yui-purecss.docpad.git"
+  },
+  "engines": {
+    "node": "0.10",
+    "npm": "1.2"
+  },
+  "dependencies": {
+    "docpad": "~6.64.2",
+    "docpad-plugin-cleanurls": "~2.7.0",
+    "docpad-plugin-coffeescript": "~2.4.0",
+    "docpad-plugin-eco": "~2.0.3",
+    "docpad-plugin-marked": "~2.2.1",
+    "docpad-plugin-partials": "~2.9.0",
+    "docpad-plugin-related": "~2.2.2",
+    "docpad-plugin-text": "~2.3.2",
+    "docpad-plugin-basicauth": "~2.0.1",
+    "express": "~3.4.4"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "~2.6.0"
+  },
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
+  }
+}

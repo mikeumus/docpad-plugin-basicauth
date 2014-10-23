@@ -1,3 +1,5 @@
+express = require 'express'
+
 # Export
 module.exports = (BasePlugin) ->
 	# Define
@@ -14,7 +16,7 @@ module.exports = (BasePlugin) ->
 		# Server Extend
 		serverExtend: (opts) ->
 			# Prepare
-			{express, server} = opts
+			{server} = opts
 			config = @getConfig()
 			
 			# Create our authentication middleware

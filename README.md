@@ -34,6 +34,8 @@ module.exports = docpadConfig
 ```
 
 And that's it for now! 
+
+___
  
 ### LICENSE
 

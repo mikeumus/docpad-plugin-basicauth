@@ -3,6 +3,7 @@
   "version": "2.0.1",
   "description": "express.basicAuth as a DocPad plugin.",
   "homepage": "https://github.com/mikeumus/docpad-plugin-basicauth",
+  "license": "MIT",
   "keywords": [
     "docpad",
     "docpad-plugin",
